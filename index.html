@@ -1,19 +1,50 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="This is a test">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="This is a test" />
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <title>Bootstrap 4 tutorial</title>
 
     <style>
       body {
         background: aqua;
       }
-      
+      /* responsive breakpoints */
+      @media screen and (min-width: 576px) {
+        body {
+          background: red;
+        }
+      }
+
+      @media screen and (min-width: 768px) {
+        body {
+          background: yellow;
+        }
+      }
+
+      @media screen and (min-width: 992px) {
+        body {
+          background: rgb(169, 23, 206);
+        }
+      }
+
+      @media screen and (min-width: 1200px) {
+        body {
+          background: rgb(7, 83, 23);
+        }
+      }
     </style>
   </head>
 
@@ -25,7 +56,7 @@
     <p class="bg-primary text-light">I'm working on my skills!</p>
     <p class="bg-warning">Be patient...</p>
     <p class="bg-warning">Be patient & brave</p> -->
-    
+
     <!-- Containers exercise
     <div class="container bg-danger">
       i'm a simple container
@@ -45,7 +76,7 @@
           <h1>i'm about section</h1>
         </div>
       </section> -->
-    
+
     <!-- container and container-fluid
     <div class="container">
       <div class="row">
@@ -62,16 +93,48 @@
       </div> -->
 
     <!-- grid -->
+    <!-- 12 -->
     <div class="container">
       <div class="row">
         <div class="col bg-danger">i am single column</div>
       </div>
-    </div>  
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col bg-warning">i am single column</div>
+        <div class="col bg-success">i am single column</div>
+        <div class="col bg-dark">i am single column</div>
+        <div class="col bg-danger">i am single column</div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6 col-md-3 col-lg-6 col-xl-3 bg-warning">i am single column</div>
+        <div class="col-sm-6 col-md-3 col-lg-6 col-xl-3 bg-success">i am single column</div>
+        <div class="col-sm-6 col-md-3 col-lg-6 col-xl-3 bg-dark">i am single column</div>
+        <div class="col-sm-6 col-md-3 col-lg-6 col-xl-3 bg-danger">i am single column</div>
+      </div>
+    </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
