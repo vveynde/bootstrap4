@@ -46,6 +46,14 @@
         }
       }
 
+      /* .col {
+        min-height: 40vh;
+      } */
+
+      .row {
+        min-height: 100vh;
+        background: #f15025;
+      }
     </style>
   </head>
 
@@ -189,15 +197,26 @@
 
     <!-- flexbox in bootstrap -->
     <!-- d-flex -->
-    <!-- justify-content -->
-    <!-- align items -->
+    <!-- justify-content (X) -->
+    <!-- align items (Y) -->
     <!-- only direct children -->
 
-    <div class="container">
+<!--     <div class="container">
       <div class="row">
-        <div class="col bg-danger">
-          <p class="bg-warning">hello world</p>
+        <div class="col bg-danger d-flex justify-content-around align-items-center">
+          <p class="bg-warning align-self-end">hello world</p>
           <p class="bg-info">hello world</p>
+          <p class="bg-success">hello world</p>
+          <p class="bg-dark align-self-start">hello world</p>
+        </div>
+      </div>
+    </div>
+ -->
+
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-9">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eos id commodi ab dignissimos magni, consequuntur maxime optio quas maiores repellendus, tenetur perspiciatis accusantium sequi iure vel? Praesentium quod libero corrupti omnis! Veniam eos a possimus quis suscipit veritatis eligendi quae excepturi amet quo obcaecati, cumque deserunt optio doloribus cum.</p>
         </div>
       </div>
     </div>
